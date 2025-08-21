@@ -20,7 +20,7 @@ Install the dependencies before running the project:
 ```bash
 pip install tensorflow tensorflow-hub tensorflow-datasets matplotlib numpy
 ```
-📂 Dataset
+## 📂 Dataset
 
 Dataset: cats_vs_dogs (via TensorFlow Datasets)
 
@@ -31,7 +31,7 @@ Subset used:
 5% for validation
 
 
-🚀 How It Works
+## 🚀 How It Works
 
 Data Loading & Preprocessing
 
@@ -68,14 +68,14 @@ Prediction
 Custom function predict_image(image_path, model)
 Loads an external image and predicts whether it's a cat or a dog with confidence score.
 
-📊 Training Results
+## 📊 Training Results
 
 Achieved reasonable accuracy on a small training subset.
 
 Example training curves are plotted (accuracy & loss).
 
 
-🖼️ Example Usage
+## 🖼️ Example Usage
 Predict an image
 
 ```python
@@ -89,7 +89,7 @@ This image most likely belongs to 'dog' with a 92.45% confidence.
 ```
 
 
-📌 Next Steps
+## 📌 Next Steps
 
 Train on the full dataset for better accuracy.
 
@@ -99,7 +99,7 @@ Try other TensorFlow Hub models (e.g., EfficientNet, ResNet).
 
 Deploy as a simple web app with Flask or Streamlit.
 
-📜 License
+## 📜 License
 
 This project is released under the MIT License.
 Feel free to use and modify it for your own work.
