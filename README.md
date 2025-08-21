@@ -19,7 +19,7 @@ Install the dependencies before running the project:
 
 ```bash
 pip install tensorflow tensorflow-hub tensorflow-datasets matplotlib numpy
-
+```
 📂 Dataset
 
 Dataset: cats_vs_dogs (via TensorFlow Datasets)
